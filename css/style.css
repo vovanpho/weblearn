@@ -4,8 +4,12 @@ body{
 }
 
 .pc-layout{
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 134rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
 }
 
 
@@ -166,9 +170,43 @@ section .view-wapper div div p{
 }
 
 /* ------------------- */
+.slider-product{
+    position: relative;
+}
+.tab-container{
 
+}
+.tab-container .tab-button{
 
+}
+.tab-container .tab-button .carousel-container{
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    width: fit-content;
+}
+.carousel-scroll{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-gap: 1.6rem;
+}
+.carousel-container{
+    position: relative;
+}
+.tab-container .tab-button .carousel-container .carousel-scroll  button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 20px
 
+}
+.tab-content{
+    margin-top: 22px;
+}
+.tab-content .carousel-container{
+    width: 1270px;
+    overflow: hidden;
+}
 
 
 /* ----------footer--------- */
